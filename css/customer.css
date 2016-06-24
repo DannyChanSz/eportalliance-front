@@ -3,6 +3,12 @@ body {
   font-family: '微软雅黑', '黑体';
   background-color: #f4f4f2; }
 
+a {
+  color: #666666; }
+  a:hover {
+    color: #999999;
+    text-decoration: none; }
+
 header .lang-select {
   width: 100%; }
   header .lang-select .btn {
@@ -48,6 +54,59 @@ header .lang-select {
 
 .gutter {
   height: 20px; }
+
+.breadcrumb {
+  padding: 20px 10px 0 0; }
+  .breadcrumb li:first-child {
+    padding-left: 1em;
+    border-left: 3px solid #666666;
+    font-size: 16px; }
+  .breadcrumb li + li:before {
+    content: ">"; }
+
+.aside .title {
+  border-left: 3px solid #666666;
+  padding-left: 1em;
+  margin-bottom: 1em; }
+
+.aside .panel-1 {
+  background-color: #fff;
+  border: 1px solid #ededed;
+  height: 336px; }
+  .aside .panel-1 .thumb {
+    text-align: center; }
+    .aside .panel-1 .thumb img {
+      max-width: 100%;
+      height: auto; }
+  .aside .panel-1 .caption {
+    padding: 15px;
+    text-align: center; }
+
+.aside .panel-2 {
+  padding: 5px;
+  background-color: #fff;
+  border: 1px solid #ededed; }
+  .aside .panel-2 .item {
+    clear: both;
+    padding: 10px 5px;
+    height: 108px;
+    border-bottom: 1px solid #f4f4f2; }
+  .aside .panel-2 .item:last-child {
+    border-bottom: none; }
+  .aside .panel-2 .caption {
+    font-size: 14px;
+    line-height: 24px;
+    margin-left: 130px;
+    padding-right: 130px;
+    width: 100%;
+    clear: right; }
+  .aside .panel-2 .thumb {
+    float: left;
+    height: auto;
+    width: 120px; }
+    .aside .panel-2 .thumb img {
+      max-width: 100%;
+      height: auto; }
 
 .section {
   border-top: 2px solid #666666;
@@ -113,6 +172,39 @@ header .lang-select {
       border: none;
       max-width: 100%;
       height: auto; }
+
+.section.list {
+  margin-top: 20px;
+  padding: 20px 15px;
+  border: none;
+  background-color: #fff;
+  border: 1px solid #ededed; }
+  .section.list .title {
+    font-weight: 600;
+    color: #666666; }
+  .section.list .brief {
+    margin: 20px 0;
+    color: #999999; }
+  .section.list .row {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #f4f4f2;
+    padding-bottom: 15px;
+    margin-right: 10px; }
+    .section.list .row:last-child {
+      margin-bottom: 0;
+      border: none; }
+
+.list-more {
+  background-color: #fff;
+  padding: 10px;
+  text-align: center;
+  margin: 10px 0;
+  color: #999999;
+  cursor: pointer;
+  border: 1px solid #ededed; }
+  .list-more:active {
+    background-color: #999999;
+    color: #fff; }
 
 footer {
   display: block;
