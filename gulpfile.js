@@ -32,7 +32,7 @@ gulp.task('sass', function() {
 
 // 压缩CSS
 gulp.task('cleancss',['sass'], function() {
-    return gulp.src('css/*.css') //压缩的文件
+    return gulp.src('css/main.css') //压缩的文件
         .pipe(rename({ suffix: '.min' })) //rename压缩后的文件名
         .pipe(cleancss()) //执行压缩        
         .pipe(gulp.dest('dist/css')) //输出文件夹

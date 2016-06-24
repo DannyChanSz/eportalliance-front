@@ -17,7 +17,7 @@ header .lang-select {
     box-shadow: none; }
 
 .top-banner {
-  padding: 50px 20px; }
+  padding: 50px 20px 38px 20px; }
   .top-banner .search-bar input {
     border-radius: 0;
     height: 3em;
@@ -46,11 +46,12 @@ header .lang-select {
   .weather span {
     padding-right: 1.5em; }
 
+.gutter {
+  height: 20px; }
+
 .section {
   border-top: 2px solid #666666;
   padding: 20px 0; }
-  .section .gutter {
-    height: 20px; }
   .section .section-top-nav {
     margin: 0;
     padding: 0;

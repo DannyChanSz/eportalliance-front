@@ -37,7 +37,7 @@ header {
 }
 
 .top-banner {
-    padding: 50px 20px;
+    padding: 50px 20px 38px 20px;
     .search-bar {
         input {
             border-radius: 0;
@@ -76,12 +76,12 @@ header {
         padding-right: 1.5em;
     }
 }
-
-.section {
-    border-top: 2px solid $gray;
-    .gutter {
+.gutter {
         height: 20px;
     }
+.section {
+    border-top: 2px solid $gray;
+    
     padding: 20px 0;
     .section-top-nav {
         margin: 0;
