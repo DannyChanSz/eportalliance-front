@@ -6024,6 +6024,38 @@ header .lang-select {
     background-color: #999999;
     color: #fff; }
 
+.news-details {
+  background-color: #fff;
+  padding: 10px;
+  text-align: center;
+  margin: 10px 0;
+  color: #666666;
+  border: 1px solid #ededed; }
+  .news-details h1 {
+    margin: 1.5em 1em 1em 1em; }
+  .news-details .addon {
+    color: #999999;
+    font-style: italic;
+    margin: 10px;
+    margin-bottom: 30px; }
+  .news-details .well {
+    border: none;
+    box-shadow: none; }
+  .news-details .content {
+    text-align: left;
+    padding: 1em;
+    text-indent: 2em;
+    min-height: 30em;
+    line-height: 1.8em; }
+    .news-details .content img {
+      max-width: 100%; }
+  .news-details .pre-next {
+    text-align: left;
+    border-top: 1px solid #f4f4f2;
+    line-height: 2em;
+    margin: 2em;
+    padding-top: 1em; }
+
 footer {
   display: block;
   background-color: #666666;

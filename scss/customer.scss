@@ -275,6 +275,48 @@ header {
 	}
 }
 
+//news-details
+.news-details{
+	background-color:$inverse-color;
+	padding:10px;
+	text-align:center;
+	margin:10px 0;
+	color:$gray;
+	border:1px solid #ededed;
+	h1{
+		margin:1.5em 1em 1em 1em;
+	}
+
+	.addon{
+		color:$gray-light;
+		font-style:italic;
+		margin:10px;
+		margin-bottom:30px;
+	}
+
+	.well{
+		border:none;
+		box-shadow:none;
+	}
+	.content{
+		text-align: left;
+		padding:1em;
+		text-indent: 2em;
+		min-height:30em;
+		line-height: 1.8em;
+		img{
+			max-width: 100%;
+		}
+	}
+	.pre-next{
+		text-align: left;
+		border-top:1px solid $gray-lighter;
+		line-height: 2em;
+		margin:2em;
+		padding-top:1em;
+	}
+}
+
 footer {
     display: block;
     background-color: $gray;
