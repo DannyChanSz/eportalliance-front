@@ -6055,6 +6055,44 @@ header .lang-select {
     margin: 2em;
     padding-top: 1em; }
 
+.about {
+  background-color: #fff;
+  padding: 2em;
+  margin-bottom: 2em;
+  line-height: 1.5em; }
+  .about .nav-tabs {
+    margin-bottom: 2em; }
+    .about .nav-tabs li {
+      width: 25%;
+      text-align: center; }
+      .about .nav-tabs li.active a {
+        background-color: #014493;
+        color: #fff; }
+      .about .nav-tabs li a {
+        padding: 15px 10px;
+        margin: 10px;
+        border: 1px solid #999999;
+        border-radius: 0; }
+  .about h2 {
+    border-left: 3px solid #014493;
+    margin-bottom: 1em;
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 1em; }
+  .about h3 {
+    font-size: 15px;
+    font-weight: 600; }
+  .about h4 {
+    font-size: 14px; }
+  .about #profile {
+    padding-bottom: 3em; }
+    .about #profile .col-md-5, .about #profile .col-md-7 {
+      padding: 2em; }
+  .about #culture {
+    padding-bottom: 3em; }
+    .about #culture .col-md-3 {
+      text-align: center; }
+
 footer {
   display: block;
   background-color: #666666;
