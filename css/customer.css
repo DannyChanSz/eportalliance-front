@@ -237,6 +237,20 @@ header .lang-select {
     margin: 2em;
     padding-top: 1em; }
 
+.banner-1 {
+  margin-top: 20px;
+  width: 100%;
+  position: relative; }
+  .banner-1 .content {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    margin-left: -40%;
+    width: 80%;
+    color: #fff; }
+    .banner-1 .content p {
+      color: #f4f4f2; }
+
 .about {
   background-color: #fff;
   padding: 2em;
@@ -268,7 +282,8 @@ header .lang-select {
     font-size: 14px; }
   .about #profile {
     padding-bottom: 3em; }
-    .about #profile .col-md-5, .about #profile .col-md-7 {
+    .about #profile .col-md-5,
+    .about #profile .col-md-7 {
       padding: 2em; }
   .about #culture {
     padding-bottom: 3em; }

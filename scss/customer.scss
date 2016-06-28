@@ -319,19 +319,36 @@ header {
 }
 
 //about
+.banner-1 {
+    margin-top: 20px;
+    width: 100%;
+    position: relative;
+    .content {
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        margin-left: -40%;
+        width: 80%;
+        color: $inverse-color;
+        p {
+            color: $gray-lighter;
+        }
+    }
+}
+
 .about {
-	background-color:$inverse-color;
-	padding:2em;
-	margin-bottom:2em;
+    background-color: $inverse-color;
+    padding: 2em;
+    margin-bottom: 2em;
     .nav-tabs {
-    	margin-bottom:2em;
+        margin-bottom: 2em;
         li {
             width: 25%;
             text-align: center;
             &.active {
                 a {
                     background-color: $brand-primary;
-                    color:$inverse-color;
+                    color: $inverse-color;
                 }
             }
             a {
@@ -342,8 +359,6 @@ header {
             }
         }
     }
-
-
     h2 {
         border-left: 3px solid $brand-primary;
         margin-bottom: 1em;
@@ -359,17 +374,15 @@ header {
         font-size: 14px;
     }
     line-height:1.5em;
-    #profile{
-    	padding-bottom:3em;
-    	
-    	.col-md-5,.col-md-7{
-    			padding:2em;
-    		
-    		
-    	}
-    	.col-md-6{
-    		//float:right;
-    	}
+    #profile {
+        padding-bottom: 3em;
+        .col-md-5,
+        .col-md-7 {
+            padding: 2em;
+        }
+        .col-md-6 {
+            //float:right;
+        }
     }
     #culture {
         .col-md-3 {
@@ -377,10 +390,10 @@ header {
         }
         padding-bottom:3em;
     }
-    #hr{
-    	li{
-    		list-style: none;
-    	}
+    #hr {
+        li {
+            list-style: none;
+        }
     }
 }
 
