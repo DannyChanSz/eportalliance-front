@@ -19,7 +19,7 @@ gulp.task('lint', function() {
 
 // 编译Sass
 gulp.task('sass', function() {
-    return gulp.src('scss/*.scss')
+    return gulp.src('scss/main.scss')
         .pipe(sass())
         .pipe(gulp.dest('css'))
         .pipe(rename({ suffix: '.min' })) //rename压缩后的文件名
