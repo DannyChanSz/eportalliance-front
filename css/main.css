@@ -6092,6 +6092,8 @@ header .lang-select {
     padding-bottom: 3em; }
     .about #culture .col-md-3 {
       text-align: center; }
+  .about #hr li {
+    list-style: none; }
 
 footer {
   display: block;

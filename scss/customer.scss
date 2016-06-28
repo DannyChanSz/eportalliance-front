@@ -377,6 +377,11 @@ header {
         }
         padding-bottom:3em;
     }
+    #hr{
+    	li{
+    		list-style: none;
+    	}
+    }
 }
 
 footer {
