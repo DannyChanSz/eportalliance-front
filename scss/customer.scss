@@ -176,7 +176,6 @@ header {
             height: 108px;
             border-bottom: 1px solid $gray-lighter;
             overflow: hidden;
-            
         }
         .item:last-child {
             border-bottom: none;
@@ -475,26 +474,26 @@ header {
     }
 }
 
-.merchant{
-	padding:2em;
-	background-color:$inverse-color;
-	margin-bottom:2em;
-	h2{
-		border-left:3px solid $gray;
-		padding-left:1em;
-		font-size: 16px;
-		font-weight: 600;
-	}
+.merchant {
+    padding: 2em;
+    background-color: $inverse-color;
+    margin-bottom: 2em;
+    h2 {
+        border-left: 3px solid $gray;
+        padding-left: 1em;
+        font-size: 16px;
+        font-weight: 600;
+    }
 }
 
-.down{
-	margin:20px;
-	.item{
-		margin:20px;
-		line-height: 1.5em;
-		text-align: center;
-		float: left;
-	}
+.down {
+    margin: 20px;
+    .item {
+        margin: 20px;
+        line-height: 1.5em;
+        text-align: center;
+        float: left;
+    }
 }
 
 footer {
@@ -540,4 +539,18 @@ footer {
         background-color: $gray-dark;
         padding: 20px;
     }
+}
+
+@media (max-width: 560px) {
+    .section-top-nav {
+    	li:first-child{
+    		display: block;
+    	}
+        li{
+            height:2em;
+        }
+    }
+    .section .panel-1 {
+    height: initial;
+}
 }

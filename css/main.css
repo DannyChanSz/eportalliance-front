@@ -6223,3 +6223,11 @@ footer {
   footer .copyright {
     background-color: #333333;
     padding: 20px; }
+
+@media (max-width: 560px) {
+  .section-top-nav li:first-child {
+    display: block; }
+  .section-top-nav li {
+    height: 2em; }
+  .section .panel-1 {
+    height: initial; } }
