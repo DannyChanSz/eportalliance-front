@@ -5880,6 +5880,9 @@ header .lang-select {
     border: none;
     box-shadow: none; }
 
+.well {
+  text-align: left; }
+
 .top-banner {
   padding: 50px 20px 38px 20px; }
   .top-banner .search-bar input {
