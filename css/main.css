@@ -5945,7 +5945,8 @@ header .lang-select {
     clear: both;
     padding: 10px 5px;
     height: 108px;
-    border-bottom: 1px solid #f4f4f2; }
+    border-bottom: 1px solid #f4f4f2;
+    overflow: hidden; }
   .aside .panel-2 .item:last-child {
     border-bottom: none; }
   .aside .panel-2 .caption {

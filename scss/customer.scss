@@ -175,6 +175,7 @@ header {
             padding: 10px 5px;
             height: 108px;
             border-bottom: 1px solid $gray-lighter;
+            overflow: hidden;
         }
         .item:last-child {
             border-bottom: none;
