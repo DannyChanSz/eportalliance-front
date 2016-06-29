@@ -6232,4 +6232,6 @@ footer {
   .section-top-nav li {
     height: 2em; }
   .section .panel-1 {
-    height: initial; } }
+    height: initial; }
+  .news-details .content {
+    text-indent: 0; } }
