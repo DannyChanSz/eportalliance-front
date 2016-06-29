@@ -5854,6 +5854,9 @@ button.close {
   font-weight: normal;
   font-style: normal; }
 
+html, body {
+  width: 100%; }
+
 body {
   font-family: '微软雅黑', '黑体';
   background-color: #f4f4f2; }
@@ -5953,7 +5956,6 @@ header .lang-select {
     font-size: 14px;
     line-height: 24px;
     margin-left: 130px;
-    padding-right: 130px;
     width: 100%;
     clear: right; }
   .aside .panel-2 .thumb {
