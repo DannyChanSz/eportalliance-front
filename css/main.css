@@ -5956,7 +5956,6 @@ header .lang-select {
     font-size: 14px;
     line-height: 24px;
     margin-left: 130px;
-    width: 100%;
     clear: right; }
   .aside .panel-2 .thumb {
     float: left;
@@ -6010,8 +6009,6 @@ header .lang-select {
       font-size: 14px;
       line-height: 24px;
       margin-left: 130px;
-      padding-right: 130px;
-      width: 100%;
       clear: right; }
     .section .panel-2 .thumb {
       float: left;
